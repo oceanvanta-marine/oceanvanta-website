@@ -1,0 +1,155 @@
+body {
+    background-color: #071c30;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: cyan;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: lightgray;
+    font-size: 20px;
+}
+body p {
+    background-color: #123456;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    max-width: 500px;
+}
+body p:hover {
+    background-color: #0077b6;
+    cursor: pointer;
+}
+nav {
+    background-color: #123456;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+body {
+    background-image: linear-gradient(
+        rgba(5, 20, 45, 0.75),
+        rgba(5, 20, 45, 0.85)
+    ), url("ship.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav a:hover {
+    color: #00d4c7;
+    text-decoration: underline;
+}h1 {
+    font-size: clamp(28px, 5vw, 48px);
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 15px;
+}.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 25px auto;
+    color: #00d4c7;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.company-logo span {
+    font-size: 42px;
+}
+
+.company-logo strong {
+    letter-spacing: 3px;
+}@media (max-width: 600px) {
+    nav {
+        padding: 15px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .company-logo {
+        font-size: 18px;
+    }
+
+    body p {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}@media (max-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px 5px;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 12px;
+    }
+}button {
+    background-color: #00d4d4;
+    color: #002b40;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}a[href^="mailto:"] {
+    color: #00ffff;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}footer {
+    background-color: #061a2b;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}footer {
+    background-color: #061a2b;
+    padding: 20px 10px;
+    margin-top: 30px;
+    border-top: 2px solid #00d4d4;
+}
+
+footer p {
+    background: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+}
